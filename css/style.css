@@ -65,9 +65,6 @@ p {
 .img-wrapper--1 {
   background-image: url("../images/img1.jpg"); }
 
-.img-wrapper--2 {
-  background-image: url("../images/img2.jpg"); }
-
 .img-wrapper--3 {
   background-image: url("../images/image3.jpg"); }
 
@@ -79,7 +76,13 @@ p {
 
 .footer {
   position: fixed;
-  bottom: 35px;
-  left: 120px; }
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 35px 0; }
+
+.footer-inner {
+  display: flex;
+  justify-content: flex-start; }
 
 /*# sourceMappingURL=style.css.map */
