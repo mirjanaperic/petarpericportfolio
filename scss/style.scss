@@ -1,0 +1,19 @@
+@import 'base/_mixins';
+@import 'base/_vars';
+@import 'base/_general';
+@import 'base/_typography';
+@import 'components/_header';
+@import 'components/_hero-section';
+@import 'components/_footer';
+
+
+
+
+// @function set-text-color($color) {
+//     @if (lightness( $color ) > 50) {
+//       @return $black; // Lighter color, return black
+//     }
+//     @else {
+//       @return $white; // Darker color, return white
+//     }
+// }

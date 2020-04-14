@@ -1,0 +1,16 @@
+*:focus {
+    outline: none;
+}
+html {
+    font-size: 62.5%;
+}
+@include main; 
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+}
+body {
+    background-color: $background_color;
+    
+}

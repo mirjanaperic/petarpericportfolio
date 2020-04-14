@@ -1,0 +1,31 @@
+.header {
+    padding: 35px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    list-style: none;
+    margin-left: 120px;
+    &:first-child {
+        margin: 0;
+    }
+}
+.link-item {
+    text-decoration: none;
+    color: $main_text_color;
+}
+
