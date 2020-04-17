@@ -1,11 +1,26 @@
 
-li {
-    font-size: 16px;
+* {
+    font-size: 21px;
+    letter-spacing: 2px;
+    color: $main_text_color;
+    line-height: 1.6;
 }
 
-p {
-    font-size: 16px;
-    color: $main_text_color;
+// li {
+//     font-size: 21px;
+//     letter-spacing: 2px;
+// }
+
+// p {
+//     font-size: 21px;
+//     letter-spacing: 2px;
+//     color: $main_text_color;
+// }
+a {
+    // font-size: 21px;
+    // letter-spacing: 2px;
+    // color: $main_text_color;
+    text-decoration: none;
 }
 
 // .text--color {
