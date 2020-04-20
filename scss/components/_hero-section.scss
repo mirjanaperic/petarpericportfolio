@@ -13,39 +13,36 @@
     background-position: center center;
 }
 
-.img-wrapper--1 {
+.first-slider-1 {
+    background-image: url('../images/bojanka1.jpg');
+}
+
+.first-slider-2 {
+    background-image: url('../images/bojanka2.jpg');
+}
+
+
+.second-slider-1 {
+    // $bg-color: #000;
     background-image: url('../images/ALTHEA1.jpg');
 }
-
-.img-wrapper--2 {
-    background-image: url('../images/SUNCE-JUGA.jpg');
-}
-
-.img-wrapper--3 {
-    // $bg-color: #000;
-    background-image: url('../images/image3.jpg');
-}
-.img-wrapper--4 {
-    // $bg-color: #000;
-    background-image: url('../images/img4.jpg');
-}
-.img-wrapper--5 {
+.second-slider-2 {
     // $bg-color: #000;
     background-image: url('../images/ALTHEA2.jpg');
 }
-.img-wrapper--6 {
+.second-slider-3 {
     // $bg-color: #000;
-    background-image: url('../images/TAMO-DALEKO.jpg');
+    background-image: url('../images/ALTHEA3.jpg');
 }
-.img-wrapper--7 {
+
+.third-slider-1 {
+    // $bg-color: #000;
+    background-image: url('../images/SUNCE-JUGA1.jpg');
+}
+.third-slider-2 {
     // $bg-color: #000;
     background-image: url('../images/SUNCE-JUGA2.jpg');
 }
-.img-wrapper--8 {
-    // $bg-color: #000;
-    background-image: url('../images/SUNCE-JUGA4.jpg');
-}
-
 
 #logo {
     position: relative;
