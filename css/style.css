@@ -78,6 +78,12 @@ a {
 .img-wrapper--6 {
   background-image: url("../images/TAMO-DALEKO.jpg"); }
 
+.img-wrapper--7 {
+  background-image: url("../images/SUNCE-JUGA2.jpg"); }
+
+.img-wrapper--8 {
+  background-image: url("../images/SUNCE-JUGA4.jpg"); }
+
 #logo {
   position: relative;
   padding-bottom: 5px; }
