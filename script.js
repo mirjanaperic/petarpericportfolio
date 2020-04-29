@@ -4,7 +4,7 @@ var $slider = $('.slider-1').slick({
     arrows: false,
     speed: 500,
     cssEase: 'linear',
-    autoplay: true,
+    // autoplay: true,
     swipeToSlide: true,
     focusOnSelect: true
   });
@@ -22,7 +22,7 @@ var $slider = $('.slider-1').slick({
     arrows: false,
     speed: 500,
     cssEase: 'linear',
-    autoplay: true,
+    // autoplay: true,
     swipeToSlide: true,
     focusOnSelect: true
   });
@@ -41,7 +41,7 @@ var $slider3 = $('.slider-3').slick({
   arrows: false,
   speed: 500,
   cssEase: 'linear',
-  autoplay: true,
+  // autoplay: true,
   swipeToSlide: true,
   focusOnSelect: true
 });
@@ -57,6 +57,5 @@ $slider3.on('mousedown', '.slick-slide', function () {
 var logo = document.getElementById('logo');
 var logoWrap = document.getElementById('logo-wrap');
 
-logo.addEventListener('mouseover', function() {
-    logoWrap.innerHTML = 'petarpericportfolio';
-});
+
+

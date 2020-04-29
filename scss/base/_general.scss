@@ -6,10 +6,13 @@ html {
 }
 @include main; 
 
-// .container {
-    // max-width: 1680px;
-    // margin: 0 auto;
-// }
+.container {
+    max-width: 1845px;
+    margin: 0 auto;
+    @media only screen and(max-width: 1900px) {
+        padding: 0 30px;
+    }
+}
 body {
     background-color: $background_color;
     
