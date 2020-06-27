@@ -10,7 +10,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 200; }
 
 .container {
@@ -69,9 +69,9 @@ a {
 
 .img-wrapper {
   height: 100vh;
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+  background-size: cover; }
   @media only screen and (max-width: 1440px) {
     .img-wrapper {
       background-size: contain; } }
@@ -96,6 +96,12 @@ a {
 
 .third-slider-2 {
   background-image: url("../images/SUNCE-JUGA2.jpg"); }
+
+.fourth-slider-1 {
+  background-image: url("../images/US1.png"); }
+
+.fourth-slider-2 {
+  background-image: url("../images/US2.png"); }
 
 #logo {
   position: relative;
@@ -132,6 +138,14 @@ a {
 .description-hero3 {
   position: absolute;
   bottom: 30px; }
+
+.slider-4-wrapp {
+  position: relative; }
+
+.description-hero4 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px; }
 
 .hero-section--information {
   padding-top: 90px; }
