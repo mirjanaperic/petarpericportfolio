@@ -124,7 +124,7 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  cursor: url("../images/KURSOR.png"), auto;
+  cursor: url("./images/KURSOR.png"), auto;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -134,43 +134,43 @@ a {
 }
 
 .first-slider-1 {
-  background-image: url("../images/bojanka1.jpg");
+  background-image: url("./images/bojanka1.jpg");
 }
 
 .first-slider-2 {
-  background-image: url("../images/bojanka2.jpg");
+  background-image: url("./images/bojanka2.jpg");
 }
 
 .second-slider-1 {
-  background-image: url("../images/ALTHEA1.jpg");
+  background-image: url("./images/ALTHEA1.jpg");
 }
 
 .second-slider-2 {
-  background-image: url("../images/ALTHEA2.jpg");
+  background-image: url("./images/ALTHEA2.jpg");
 }
 
 .second-slider-3 {
-  background-image: url("../images/ALTHEA3.jpg");
+  background-image: url("./images/ALTHEA3.jpg");
 }
 
 .third-slider-1 {
-  background-image: url("../images/SUNCE-JUGA1.jpg");
+  background-image: url("./images/SUNCE-JUGA1.jpg");
 }
 
 .third-slider-2 {
-  background-image: url("../images/SUNCE-JUGA2.jpg");
+  background-image: url("./images/SUNCE-JUGA2.jpg");
 }
 
 .third-slider-3 {
-  background-image: url("../images/TEGLE-SAJT.png");
+  background-image: url("./images/TEGLE-SAJT.png");
 }
 
 .fourth-slider-1 {
-  background-image: url("../images/US1.png");
+  background-image: url("./images/US1.png");
 }
 
 .fourth-slider-2 {
-  background-image: url("../images/US2.png");
+  background-image: url("./images/US2.png");
 }
 
 #logo {
