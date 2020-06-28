@@ -13,7 +13,6 @@ var $slider = $('.slider-1').slick({
   $slider.on('mousedown', '.slick-slide', function () {
         var curSlide = slick.slideCount === slick.currentSlide ? 0 : slick.currentSlide + 1;
         $slider.slick('slickGoTo', curSlide, true);
-        console.log(slick);
     });
 
   var $slider2 = $('.slider-2').slick({
@@ -31,7 +30,6 @@ var $slider = $('.slider-1').slick({
   $slider2.on('mousedown', '.slick-slide', function () {
     var curSlide = slick2.slideCount === slick2.currentSlide ? 0 : slick2.currentSlide + 1;
     $slider2.slick('slickGoTo', curSlide, true);
-    console.log(slick2);
 });
 
 
@@ -50,7 +48,6 @@ var slick3 = $slider3.slick('getSlick');
 $slider3.on('mousedown', '.slick-slide', function () {
   var curSlide = slick3.slideCount === slick3.currentSlide ? 0 : slick3.currentSlide + 1;
   $slider3.slick('slickGoTo', curSlide, true);
-  console.log(slick3);
 });
 
 var $slider4 = $('.slider-4').slick({
@@ -68,7 +65,6 @@ var slick4 = $slider4.slick('getSlick');
 $slider4.on('mousedown', '.slick-slide', function () {
   var curSlide = slick4.slideCount === slick4.currentSlide ? 0 : slick4.currentSlide + 1;
   $slider4.slick('slickGoTo', curSlide, true);
-  console.log(slick4);
 });
 
 

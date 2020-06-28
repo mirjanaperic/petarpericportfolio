@@ -1,9 +1,12 @@
 
-* {
+body {
     font-size: 21px;
     letter-spacing: 2px;
     color: $main_text_color;
     line-height: 1.6;
+    @media only screen and(max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 // li {
@@ -21,6 +24,7 @@ a {
     // letter-spacing: 2px;
     // color: $main_text_color;
     text-decoration: none;
+    color: $main_text_color;
 }
 
 // .text--color {

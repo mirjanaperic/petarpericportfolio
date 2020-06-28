@@ -12,6 +12,9 @@ html {
     @media only screen and(max-width: 1900px) {
         padding: 0 30px;
     }
+    @media only screen and(max-width: 768px) {
+        padding: 0 15px;
+    }
 }
 body {
     background-color: $background_color;
