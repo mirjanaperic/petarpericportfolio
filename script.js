@@ -68,8 +68,8 @@ $slider4.on('mousedown', '.slick-slide', function () {
 });
 
 
-var logo = document.getElementById('logo');
-var logoWrap = document.getElementById('logo-wrap');
+// var logo = document.getElementById('logo');
+// var logoWrap = document.getElementById('logo-wrap');
 
 
 $(function() {

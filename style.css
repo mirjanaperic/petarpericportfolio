@@ -22,14 +22,21 @@ html {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 2400px) {
   .container {
-    max-width: 1845px;
+    max-width: 2000px;
   }
 }
 
-@media only screen and (max-width: 1900px) {
+@media only screen and (max-width: 2000px) {
   .container {
+    max-width: 1800px;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .container {
+    max-width: 1500px;
     padding: 0 30px;
   }
 }
