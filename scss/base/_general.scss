@@ -7,7 +7,6 @@ html {
 @include main; 
 
 
-
 .container {
     max-width: 2400px; 
     margin: 0 auto;
@@ -27,10 +26,6 @@ html {
 }
 body {
     background-color: $background_color;
-    // overflow-y: scroll;
-    // scrollbar-width: none;
-    // -ms-overflow-style: none;
-    // -webkit-overflow-scrolling: touch;
 }
 
 *::-webkit-scrollbar {
