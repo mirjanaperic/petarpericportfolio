@@ -46,10 +46,19 @@
     background-image: url('./images/SJ5.jpg');
 }
 .fourth-slider-1 {
-    background-image: url('./images/US1.png');
+    background-image: url('./images/US1.jpg');
 }
 .fourth-slider-2 {
-    background-image: url('./images/US2.png');
+    background-image: url('./images/US2.jpg');
+}
+.fifth-slider-1 {
+    background-image: url('./images/V1.jpg');
+}
+.fifth-slider-2 {
+    background-image: url('./images/V2.jpg');
+}
+.fifth-slider-3 {
+    background-image: url('./images/V3.jpg');
 }
 
 #logo {
@@ -108,6 +117,17 @@
     position: relative;
 }
 .description-hero4 {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    @media only screen and(max-width: 768px) {
+        bottom: 15px;
+    }
+}
+.slider-5-wrapp {
+    position: relative;
+}
+.description-hero5 {
     position: absolute;
     bottom: 30px;
     left: 0;
