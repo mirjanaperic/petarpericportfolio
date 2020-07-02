@@ -6,7 +6,8 @@ var $slider = $('.slider-1').slick({
     cssEase: 'linear',
     // autoplay: true,
     swipeToSlide: true,
-    focusOnSelect: true
+    focusOnSelect: true,
+    // variableWidth: true
   });
 
   var slick = $slider.slick('getSlick');
