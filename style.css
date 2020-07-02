@@ -312,6 +312,12 @@ a {
 
 .hero-section--information {
   padding-top: 90px;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
