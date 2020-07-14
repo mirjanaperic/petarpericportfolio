@@ -21,8 +21,11 @@
 }
 .num {
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     right: 0;
+    @media only screen and(max-width: 768px) {
+        bottom: 10px;
+    }
 }
 
 .first-slider-2 {
