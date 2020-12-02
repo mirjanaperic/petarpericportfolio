@@ -98,6 +98,15 @@
     background-image: url('./images/US3.jpg');
     position: relative;
 }
+.six-slider-1 {
+    background-image: url('./images/Vodic1.jpg');
+    position: relative;
+}
+.six-slider-2 {
+    background-image: url('./images/Vodic2.jpg');
+    position: relative;
+}
+
 
 #logo {
     position: relative;
@@ -166,6 +175,17 @@
     position: relative;
 }
 .description-hero5 {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    @media only screen and(max-width: 768px) {
+        bottom: 15px;
+    }
+}
+.slider-6-wrapp {
+    position: relative;
+}
+.description-hero6 {
     position: absolute;
     bottom: 30px;
     left: 0;
