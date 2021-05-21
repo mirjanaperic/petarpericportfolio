@@ -102,6 +102,23 @@ $slider6.on('mousedown', '.slick-slide', function () {
   $slider6.slick('slickGoTo', curSlide, true);
 });
 
+var $slider7 = $('.slider-7').slick({
+  dots: false,
+  infinite: true,
+  arrows: false,
+  speed: 500,
+  cssEase: 'linear',
+  // autoplay: true,
+  swipeToSlide: true,
+  focusOnSelect: true
+});
+
+var slick7 = $slider7.slick('getSlick');
+$slider7.on('mousedown', '.slick-slide', function () {
+  var curSlide = slick7.slideCount === slick7.currentSlide ? 0 : slick7.currentSlide + 1;
+  $slider7.slick('slickGoTo', curSlide, true);
+});
+
 
 // var logo = document.getElementById('logo');
 // var logoWrap = document.getElementById('logo-wrap');

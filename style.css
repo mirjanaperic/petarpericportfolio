@@ -156,7 +156,7 @@ a {
 }
 
 .first-slider-1 {
-  background-image: url("./images/B1.jpg");
+  background-image: url("./images/TT1.jpg");
   position: relative;
 }
 
@@ -173,12 +173,12 @@ a {
 }
 
 .first-slider-2 {
-  background-image: url("./images/B2.jpg");
+  background-image: url("./images/TT2.jpg");
   position: relative;
 }
 
 .first-slider-3 {
-  background-image: url("./images/B3.jpg");
+  background-image: url("./images/TT3.jpg");
   position: relative;
 }
 
@@ -264,6 +264,21 @@ a {
 
 .six-slider-2 {
   background-image: url("./images/Vodic2.jpg");
+  position: relative;
+}
+
+.seventh-slider-1 {
+  background-image: url("./images/B1.jpg");
+  position: relative;
+}
+
+.seventh-slider-2 {
+  background-image: url("./images/B2.jpg");
+  position: relative;
+}
+
+.seventh-slider-3 {
+  background-image: url("./images/B3.jpg");
   position: relative;
 }
 
