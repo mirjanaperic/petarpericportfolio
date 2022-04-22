@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {
     "autoprefixer": "^7.1.6",
-    "fullpage.js": "^3.0.8",
+    "fullpage.js": "^4.0.5",
     "gulp-clean-css": "^3.9.0",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
